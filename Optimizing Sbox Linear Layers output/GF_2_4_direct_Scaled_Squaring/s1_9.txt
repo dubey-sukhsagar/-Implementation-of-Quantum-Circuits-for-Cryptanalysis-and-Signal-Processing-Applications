@@ -1,0 +1,17 @@
+Original Matrix:
+1000
+0101
+0001
+1010
+
+
+Reduced Matrix:
+1000
+0100
+0001
+0010
+
+
+Xor Count = 2
+x[3] = x[3] ^ x[0] ,flag 0    y[3]
+x[1] = x[1] ^ x[2] ,flag 0    y[1]

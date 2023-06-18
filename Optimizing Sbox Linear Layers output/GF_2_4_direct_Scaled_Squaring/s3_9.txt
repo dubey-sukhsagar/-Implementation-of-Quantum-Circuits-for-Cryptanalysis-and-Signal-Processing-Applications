@@ -1,0 +1,19 @@
+Original Matrix:
+1111
+0010
+0101
+1011
+
+
+Reduced Matrix:
+0100
+0010
+0001
+1000
+
+
+Xor Count = 4
+x[3] = x[3] ^ x[2] ,flag 0
+x[2] = x[2] ^ x[0] ,flag 0    y[2]
+x[3] = x[3] ^ x[1] ,flag 0    y[3]
+x[0] = x[0] ^ x[3] ,flag 0    y[0]
