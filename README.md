@@ -1,6 +1,8 @@
 # Implementation-of-Grover Oracle for an attack on AES
 1. SBOX Verilog files
 
+  More details are available at  https://github.com/banerjeeutsav/aes_sbox_exploration
+
 It includes total 432 canright sboxes (https://core.ac.uk/download/pdf/36694529.pdf) and 192 sboxes (https://pluto.huji.ac.il/~orzu/publications/ijcr_book_2004_01_03.pdf). The objective is to find optimum quantum resources for Sbox implementation.
 
 2. Optimizing Implementations of Linear Layers
